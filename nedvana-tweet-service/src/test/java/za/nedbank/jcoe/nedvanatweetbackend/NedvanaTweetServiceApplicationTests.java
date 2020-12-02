@@ -1,4 +1,4 @@
-package za.nedbank.jcoe.nedvanatweetservice;
+package za.nedbank.jcoe.nedvanatweetbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

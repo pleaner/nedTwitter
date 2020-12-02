@@ -1,4 +1,4 @@
-package za.nedbank.jcoe.nedvanatweetservice;
+package za.nedbank.jcoe.nedvanatweetbackend;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

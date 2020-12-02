@@ -1,8 +1,5 @@
-package za.nedbank.jcoe.nedvanatweetservice;
+package za.nedbank.jcoe.nedvanatweetbackend;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

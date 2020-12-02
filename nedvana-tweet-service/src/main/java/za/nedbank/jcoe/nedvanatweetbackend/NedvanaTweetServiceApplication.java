@@ -1,15 +1,11 @@
-package za.nedbank.jcoe.nedvanatweetservice;
+package za.nedbank.jcoe.nedvanatweetbackend;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.time.Duration;
-import java.time.Instant;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.concurrent.ThreadLocalRandom;
 
 @SpringBootApplication
 public class NedvanaTweetServiceApplication implements CommandLineRunner {
