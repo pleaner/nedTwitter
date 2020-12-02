@@ -1,0 +1,27 @@
+GET http://localhost:8080/api HTTP/1.1
+Authorization: Basic dXNlcjowYmY4MmNlZS01MmI5LTQ1MDktOTY1ZS02ZTliMjVhNjUzYzY=
+###
+POST http://localhost:8080/api HTTP/1.1
+content-type: application/json
+
+{
+    "author":"Dad",
+    "content":"Second Tweet! Still Cool!"
+}
+
+###
+PUT http://localhost:8080/api HTTP/1.1
+content-type: application/json
+
+  {
+    "id": 29636410824753030864727414237,
+    "author": "Sean",
+    "content": "First Tweet! Edited!",
+    "hashTags": null,
+    "mentions": null,
+    "likedBy": null
+  }
+
+  ###
+
+DELETE http://localhost:8080/29636410824753030864727414237 HTTP/1.1

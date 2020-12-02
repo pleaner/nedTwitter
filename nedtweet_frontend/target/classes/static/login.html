@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<div class="container">
+    <!--NAV-->
+    <nav>
+        <div class="nav-wrapper white accent-4">
+            <a href="" class="brand-logo blue-grey-text text-darken-4" style="padding-left: 30px">Nedvana Sunshine</a>
+        </div>
+    </nav>
+
+    <!--Input-->
+
+    <div class="row" style="margin-top: 200px">
+        <form class="col s6 push-s3" name="f" action="/login.html" method="POST">
+            <div class="row">
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="username" type="text" name="username" required>
+                        <label for="username">Username</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" name="password" class="validate" required>
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light col s4 push-s4" type="submit" name="submit" value="Submit">Login
+                    <i class="material-icons right">cloud</i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<!-- Footer  -->
+<img src="images/astronaut.jpg" style="height:400px;position:absolute;right:00px;bottom:00px;z-index: -1;" ></img>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
